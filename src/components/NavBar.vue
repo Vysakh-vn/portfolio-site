@@ -1,6 +1,6 @@
 <template>
 <nav id="main-navbar" class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Vysakh V N</a>
+  <a class="navbar-brand ms-5" href="#"><b>Vysakh V N</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -28,5 +28,11 @@
 <style>
 #main-navbar {
 background-color: #ffff;
+font-size: 12px;
 }
+
+#main-navbar .navbar-nav .nav-item {
+  margin-left: 2rem;
+}
+
 </style>

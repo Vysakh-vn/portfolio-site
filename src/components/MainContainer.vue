@@ -7,16 +7,16 @@
 
       <ProfilePhoto/>
 
-      <h2 class="mt-2">VYSAKH V N</h2>
+      <h2 class="mt-3">VYSAKH V N</h2>
       <div class="text-container">
         <div class="d-flex">
           <img :src="require('@/assets/job.svg')">
-          <p>Software Engineer</p>
+          <p class="ms-2">Software Engineer</p>
         </div>
         
         <div class="d-flex">
         <img :src="require('@/assets/location.svg')">
-        <p >Kerala, India</p>
+        <p class="ms-2">Kerala, India</p>
         </div>
         
       <p>Experienced Java developer skilled in designing, developing, and deploying robust software solutions. Proficient in
@@ -65,7 +65,7 @@ export default {
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 70px;
 }
 
