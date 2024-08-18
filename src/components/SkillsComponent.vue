@@ -3,28 +3,73 @@
         <h3 class="skills-heading mb-4">SKILLS</h3>
     </div>
     <div class="d-flex justify-content-center">
-        <div id="skills-container" class="col-lg-10 col-md-10 col-10">
+        
+        <div id="skills-container" class="col-lg-10 col-md-10 col-10 p-0">
             
-            <div class="row1">
-            <div class="java rounded shadow">
-                <img :src="require('@/assets/github.svg')">
+            <div class="firstrow">
+            <div class="java col-lg-2 col-md-4 col-5 shadow rounded">
+                <img :src="require('@/assets/java.svg')">
             </div>
-            <div class="rounded shadow"></div>
+            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+                <img :src="require('@/assets/springboot.svg')">
             </div>
+            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+                <img :src="require('@/assets/rest-api-icon.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-5  rounded shadow">
+                <img :src="require('@/assets/mysql-official.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+                <img :src="require('@/assets/html-1.svg')">
+            </div>
+            </div>
+
+            <!-- second row -->
+
+            <!-- <div class="firstrow">
+            <div class="java col-lg-2 col-md-4 col-6 shadow rounded">
+                <img :src="require('@/assets/java.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
+                <img :src="require('@/assets/springboot.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
+                <img :src="require('@/assets/rest-api-icon.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
+                <img :src="require('@/assets/mysql-official.svg')">
+            </div>
+            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
+                <img :src="require('@/assets/html-1.svg')">
+            </div>
+            </div> -->
 
         </div>
     </div>
 </template>
 <style>
 
-.row1 div {
+.firstrow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.firstrow div {
     background-color: white;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
-.java {
-    width: 2rem;
-    height: 2rem;
+.firstrow img {
+    width: 70px;
+}
+
+@media (max-width: 600px) {
+    .firstrow img {
+    width: 50px;
+}
+/* .firstrow div {
+    margin: 1rem;
+} */
 }
 
 .skills-heading {
@@ -35,14 +80,6 @@
 
 #skills-container {
   color: #575757;
-  padding: 2rem 3rem;
-}
-
-.row1 {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 </style>
