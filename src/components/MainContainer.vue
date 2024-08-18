@@ -28,15 +28,20 @@
     </div>
     </div>
   </div>
+
+<SkillsComponent/>
+
 </div>
 
 </template>
 <script>
 import ProfilePhoto from './ProfilePhoto.vue'
 import SocialMedia from './SocialMedia.vue'
+import SkillsComponent from './SkillsComponent.vue'
+
 export default {
   components: {
-    ProfilePhoto, SocialMedia
+    ProfilePhoto, SocialMedia, SkillsComponent
   }
 }
 </script>
