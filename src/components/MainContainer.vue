@@ -30,6 +30,7 @@
   </div>
 
 <SkillsComponent/>
+<ExperinceComponent/>
 
 </div>
 
@@ -38,10 +39,11 @@
 import ProfilePhoto from './ProfilePhoto.vue'
 import SocialMedia from './SocialMedia.vue'
 import SkillsComponent from './SkillsComponent.vue'
+import ExperinceComponent from './ExperienceComponent.vue'
 
 export default {
   components: {
-    ProfilePhoto, SocialMedia, SkillsComponent
+    ProfilePhoto, SocialMedia, SkillsComponent, ExperinceComponent
   }
 }
 </script>
