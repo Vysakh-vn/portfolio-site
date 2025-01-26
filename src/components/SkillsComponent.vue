@@ -3,73 +3,63 @@
         <h3 class="skills-heading mb-4">SKILLS</h3>
     </div>
     <div class="d-flex justify-content-center">
-        
-        <div id="skills-container" class="col-lg-10 col-md-10 col-10 p-0">
-            
-            <div class="firstrow">
-            <div class="java col-lg-2 col-md-4 col-5 shadow rounded">
+
+        <div class="skills-container">
+            <div class="shadow rounded">
                 <img :src="require('@/assets/java.svg')">
             </div>
-            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+            <div class="shadow rounded">
                 <img :src="require('@/assets/springboot.svg')">
             </div>
-            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+            <div class="shadow rounded">
                 <img :src="require('@/assets/rest-api-icon.svg')">
             </div>
-            <div class="springboot col-lg-2 col-md-4 col-5  rounded shadow">
+            <div class="shadow rounded">
                 <img :src="require('@/assets/mysql-official.svg')">
             </div>
-            <div class="springboot col-lg-2 col-md-4 col-5 rounded shadow">
+            <div class="shadow rounded">
                 <img :src="require('@/assets/html-1.svg')">
             </div>
+            <div class="shadow rounded">
+                <img :src="require('@/assets/css-3.svg')">
             </div>
-
-            <!-- second row -->
-
-            <!-- <div class="firstrow">
-            <div class="java col-lg-2 col-md-4 col-6 shadow rounded">
-                <img :src="require('@/assets/java.svg')">
+            <div class="shadow rounded">
+                <img :src="require('@/assets/aws-2.svg')">
             </div>
-            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
-                <img :src="require('@/assets/springboot.svg')">
-            </div>
-            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
-                <img :src="require('@/assets/rest-api-icon.svg')">
-            </div>
-            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
-                <img :src="require('@/assets/mysql-official.svg')">
-            </div>
-            <div class="springboot col-lg-2 col-md-4 col-6 rounded shadow">
-                <img :src="require('@/assets/html-1.svg')">
-            </div>
-            </div> -->
-
         </div>
+
+
     </div>
 </template>
 <style>
 
-.firstrow {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.firstrow div {
-    background-color: white;
-    padding: 0.5rem;
+.skills-container div {
+    display: flex;
+    justify-content: center;
 }
 
-.firstrow img {
+.skills-container img {
     width: 70px;
+    /* padding: 1rem; */
+    margin: 1rem;
 }
 
-@media (max-width: 600px) {
-    .firstrow img {
-    width: 50px;
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
 }
-/* .firstrow div {
-    margin: 1rem;
-} */
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .skills-heading {
@@ -77,9 +67,4 @@
     color: #818181;
     margin-top: 7rem;
 }
-
-#skills-container {
-  color: #575757;
-}
-
 </style>
