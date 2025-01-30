@@ -7,10 +7,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a @click="scrollToSection('about')" class="nav-link">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">SKILLS</a>
+        <a @click="scrollToSection('skills')" class="nav-link">SKILLS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">EXPERIENCE</a>
@@ -25,6 +25,18 @@
   </div>
 </nav>
 </template>
+
+<script setup>
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if(section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
+</script>
+
 <style>
 #main-navbar {
 background-color: #ffff;

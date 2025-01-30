@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container">
+    <div class="container" id="about">
 
     <div class="d-flex justify-content-center">
     <div id="main-container" class="col-lg-10 col-md-10 col-10 rounded shadow">

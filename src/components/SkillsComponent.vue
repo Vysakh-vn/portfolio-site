@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center" id="skills">
         <h3 class="skills-heading mb-4">SKILLS</h3>
     </div>
     <div class="d-flex justify-content-center">
