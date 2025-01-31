@@ -13,7 +13,7 @@
         <a @click="scrollToSection('skills')" class="nav-link">SKILLS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">EXPERIENCE</a>
+        <a @click="scrollToSection('experience')" class="nav-link">EXPERIENCE</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">PROJECTS</a>
