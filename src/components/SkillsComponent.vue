@@ -84,7 +84,7 @@
     font-size: 0.8rem;
     font-weight: 500;
     background-color: white;
-    padding: 0.7rem;
+    padding: 0.8%;
     transition: transform 0.3s ease-in-out;
 }
 

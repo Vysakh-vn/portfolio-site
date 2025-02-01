@@ -18,12 +18,12 @@
       <li class="nav-item">
         <a @click="scrollToSection('education')" class="nav-link">EDUCATION</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">PROJECTS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">CONTACT</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>
