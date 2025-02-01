@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-center" id="skills">
         <h3 class="skills-heading mb-4">SKILLS</h3>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center skills-content-container">
 
         <div class="skills-container">
             <div class="shadow rounded skill">
@@ -70,6 +70,11 @@
     </div>
 </template>
 <style>
+
+.skills-content-container {
+    padding: 0 5% 0 5%;
+}
+
 .skills-container .skill {
     display: grid;
     grid-template-rows: 3fr 1fr;
@@ -79,6 +84,12 @@
     font-size: 0.8rem;
     font-weight: 500;
     background-color: white;
+    padding: 0.7rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills-container .skill:hover {
+    transform: scale(1.1);
 }
 
 .skills-container img {
@@ -93,17 +104,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-}
-
-.last-row {
-    grid-column: 1 / span 6;
-}
-
-.last-row .row {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 @media (max-width: 768px) {
