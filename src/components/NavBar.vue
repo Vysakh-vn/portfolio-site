@@ -16,6 +16,9 @@
         <a @click="scrollToSection('experience')" class="nav-link">EXPERIENCE</a>
       </li>
       <li class="nav-item">
+        <a @click="scrollToSection('education')" class="nav-link">EDUCATION</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#">PROJECTS</a>
       </li>
       <li class="nav-item">
