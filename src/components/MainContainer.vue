@@ -75,7 +75,7 @@ export default {
 
 .container {
   margin-top: 40px;
-  padding: 70px;
+  padding-top: 70px;
 }
 
 #main-container {
