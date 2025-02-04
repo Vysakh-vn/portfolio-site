@@ -45,7 +45,7 @@
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 .experince-container {
     background-color: white;
     color: #575757;
