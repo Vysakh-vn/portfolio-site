@@ -52,13 +52,14 @@
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 .year {
     color: #c1c1c2;
 }
 
 .education-institute {
     margin-bottom: 0.7rem;
+    font-weight: 550;
 }
 
 .education-list {
@@ -73,7 +74,7 @@ ul p {
 .education-container {
     background-color: white;
     color: #858585;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
 }
 
 h5 {
