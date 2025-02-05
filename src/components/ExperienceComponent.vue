@@ -32,7 +32,7 @@
                         </div>
                         <div class="experience-text">
                             <p class="year">2022 - 2023</p>
-                            <p class="experience-institute">Finahub Technology Solutions</p>
+                            <p class="experience-institute">Kompetenze Technologies</p>
                             <h5>Java Full Stack Development Intern</h5>
                             <p>Developed 10+ Java applications, improving code efficiency by 20% and achieving a 99%
                                 unit test success rate. Built 5+ responsive web pages with HTML and CSS, reducing page
