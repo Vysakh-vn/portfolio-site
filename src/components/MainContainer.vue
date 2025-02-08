@@ -33,6 +33,7 @@
     <SkillsComponent />
     <ExperinceComponent />
     <EducationComponent />
+    <ProjectsSection />
 
   </div>
 
@@ -43,10 +44,11 @@ import SocialMedia from './SocialMedia.vue'
 import SkillsComponent from './SkillsComponent.vue'
 import ExperinceComponent from './ExperienceComponent.vue'
 import EducationComponent from './EducationComponent.vue'
+import ProjectsSection from './ProjectsSection.vue'
 
 export default {
   components: {
-    ProfilePhoto, SocialMedia, SkillsComponent, ExperinceComponent, EducationComponent
+    ProfilePhoto, SocialMedia, SkillsComponent, ExperinceComponent, EducationComponent, ProjectsSection
   }
 }
 </script>
