@@ -3,9 +3,11 @@
         <h3 class="skills-heading mb-4">PROJECTS</h3>
     </div>
     <div class="projects-section d-flex justify-content-center">
-        <ProjectsComponent />
-        <ProjectsComponent />
-        <ProjectsComponent />
+        <div class="projects-section-container col-10">
+            <ProjectsComponent />
+            <ProjectsComponent />
+            <ProjectsComponent />
+        </div>
     </div>
 </template>
 <script>
@@ -18,8 +20,14 @@ export default {
 </script>
 <style scoped>
 .projects-section {
-    display: flex;
     margin-bottom: 50px;
-    gap: 1rem;
 }
+
+.projects-section-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
 </style>

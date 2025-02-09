@@ -18,6 +18,7 @@
 .project-component-main {
     padding: 40px 30px;
     background-color: white;
+    flex: 1;
 }
 
 .project-component-main img {
@@ -29,11 +30,12 @@
 .heading {
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 
 .heading p {
     margin: 0;
-    color: #858585;
+    color: #6f7882;
     font-size: 0.9rem;
 }
 
@@ -46,14 +48,16 @@
     border-radius: 50px;
     padding: 1px 10px;
     background-color: #e1e3e7;
-    color: #858585;
+    color: #a1a1a1;
     font-size: 0.7rem;
     margin-top: 10px;
 }
 
 .description p {
-    color: #858585;
-    font-size: 0.9rem;
+    color: #a1a1a1;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: left;
 }
 
 </style>
