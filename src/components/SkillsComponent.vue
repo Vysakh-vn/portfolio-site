@@ -4,7 +4,7 @@
     </div>
     <div class="d-flex justify-content-center skills-content-container">
 
-        <div class="skills-container">
+        <div class="skills-container col-10">
             <div class="shadow rounded skill">
                 <img :src="require('@/assets/java.svg')" alt="Java logo">
                 <p>Java</p>
@@ -72,7 +72,7 @@
 <style>
 
 .skills-content-container {
-    padding: 0 5% 0 5%;
+    /* padding: 0 5% 0 5%; */
 }
 
 .skills-container .skill {
@@ -86,10 +86,11 @@
     background-color: white;
     padding: 0.8%;
     transition: transform 0.3s ease-in-out;
+    /* flex: 1; */
 }
 
 .skills-container .skill:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .skills-container img {
