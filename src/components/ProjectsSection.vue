@@ -4,9 +4,15 @@
     </div>
     <div class="projects-section d-flex justify-content-center">
         <div class="projects-section-container col-10">
-            <ProjectsComponent />
-            <ProjectsComponent />
-            <ProjectsComponent />
+            <ProjectsComponent title="Design Patterns" url="https://github.com/Vysakh-vn/DesignPatterns"
+                :tags="['Java', 'OOPs']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
+                easy understanding." />
+            <ProjectsComponent title="portfolio-site" url="https://github.com/Vysakh-vn/portfolio-site"
+                :tags="['Vue js', 'Html', 'CSS']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
+                easy understanding." />
+            <ProjectsComponent title="LeetCodeSolutions" url="https://github.com/Vysakh-vn/LeetCodeSolutions"
+                :tags="['Java', 'OOPs']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
+                easy understanding." />
         </div>
     </div>
 </template>
@@ -20,7 +26,7 @@ export default {
 </script>
 <style scoped>
 .projects-section {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .projects-section-container {
@@ -29,5 +35,4 @@ export default {
     gap: 1rem;
     flex-wrap: wrap;
 }
-
 </style>

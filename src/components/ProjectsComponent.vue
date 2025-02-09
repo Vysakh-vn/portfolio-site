@@ -1,29 +1,53 @@
 <template>
-    <div class="project-component-main rounded shadow">
+    <div class="project-component-main rounded shadow" @click="openLink">
         <div class="heading">
             <img :src="require('@/assets/github.svg')" alt="Github logo">
-            <p><b>Desing Patterns</b></p>
+            <p><b>{{ title }}</b></p>
         </div>
         <div class="tags">
-            <div>#Java</div>
-            <div>#OOPs</div>
+            <div v-for="(tags, index) in tags" :key="index">#{{ tags }}</div>
+            <!-- <div>#Java</div> -->
+            <!-- <div>#OOPs</div> -->
         </div>
         <div class="description">
-            <p>Implementation of design patterns in Java.</p>
+            <!-- <p>Java implementations of various design patterns. Each pattern includes examples and use cases for
+                easy understanding.</p> -->
+            <p>{{ description }}</p>
         </div>
     </div>
-</template>
-<style scoped>
 
+</template>
+<script>
+export default {
+    props: {
+        title: String,
+        url: String,
+        tags: Array,
+        description: String
+    },
+    methods: {
+        openLink() {
+            window.location.href = this.url;
+        }
+    }
+}
+</script>
+<style scoped>
 .project-component-main {
-    padding: 40px 30px;
+    cursor: pointer;
+    padding: 25px 30px;
     background-color: white;
     flex: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-component-main:hover {
+    transform: scale(1.02);
 }
 
 .project-component-main img {
     width: 15px;
-    margin-right:  5px;
+    margin-right: 5px;
     opacity: 0.5;
 }
 
@@ -59,5 +83,4 @@
     margin-top: 10px;
     text-align: left;
 }
-
 </style>
