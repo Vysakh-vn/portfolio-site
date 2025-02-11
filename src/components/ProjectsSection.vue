@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center" id="education">
+    <div class="d-flex justify-content-center" id="projects">
         <h3 class="skills-heading mb-4">PROJECTS</h3>
     </div>
     <div class="projects-section d-flex justify-content-center">
