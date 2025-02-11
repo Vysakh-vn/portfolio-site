@@ -29,7 +29,7 @@ export default {
 
 .projects-section-container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
     flex-wrap: wrap;
 }
