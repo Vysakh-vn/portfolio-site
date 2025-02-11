@@ -23,7 +23,7 @@
             Skilled in Java and Spring Boot, with expertise in building 20+ RESTful APIs, optimizing code quality, and
             improving system stability. Proficient in version control and collaborating with cross-functional teams to
             deliver scalable solutions.</p>
-          <!-- <button id="btn">Get in touch</button> -->
+          <button id="btn" @click="openChat">Get In Touch</button>
 
           <SocialMedia />
         </div>
@@ -49,7 +49,12 @@ import ProjectsSection from './ProjectsSection.vue'
 export default {
   components: {
     ProfilePhoto, SocialMedia, SkillsComponent, ExperinceComponent, EducationComponent, ProjectsSection
-  }
+  },
+    methods: {
+        openChat() {
+          window.open("https://www.linkedin.com/messaging/compose/?recipient=Vysakh-vn", "_blank");
+        }
+    }
 }
 </script>
 
@@ -67,7 +72,7 @@ export default {
   border: none;
   cursor: pointer;
   transition: #A6ADF0 0.3s ease;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 .text-container {
