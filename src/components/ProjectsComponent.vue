@@ -6,12 +6,8 @@
         </div>
         <div class="tags">
             <div v-for="(tags, index) in tags" :key="index">#{{ tags }}</div>
-            <!-- <div>#Java</div> -->
-            <!-- <div>#OOPs</div> -->
         </div>
         <div class="description">
-            <!-- <p>Java implementations of various design patterns. Each pattern includes examples and use cases for
-                easy understanding.</p> -->
             <p>{{ description }}</p>
         </div>
     </div>
