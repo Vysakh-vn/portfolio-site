@@ -34,6 +34,7 @@ export default {
     padding: 25px 30px;
     background-color: white;
     flex: 1;
+    min-width: 300px;
     transition: transform 0.3s ease-in-out;
 }
 
