@@ -34,6 +34,7 @@ export default {
     padding: 25px 30px;
     background-color: white;
     flex: 1;
+    height: 100%;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -61,7 +62,7 @@ export default {
 
 .tags {
     display: flex;
-    gap: 10px;
+    gap: 6px;
 }
 
 .tags div {

@@ -5,14 +5,12 @@
     <div class="projects-section d-flex justify-content-center">
         <div class="projects-section-container col-10">
             <ProjectsComponent title="Design Patterns" url="https://github.com/Vysakh-vn/DesignPatterns"
-                :tags="['Java', 'OOPs']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
+                :tags="['java', 'oops']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
                 easy understanding." />
             <ProjectsComponent title="portfolio-site" url="https://github.com/Vysakh-vn/portfolio-site"
-                :tags="['Vue js', 'Html', 'CSS']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
-                easy understanding." />
+                :tags="['vue-js', 'html', 'css']" description="My portfolio website, built using Vue.js.  It provides a showcase of my projects and experience." />
             <ProjectsComponent title="LeetCodeSolutions" url="https://github.com/Vysakh-vn/LeetCodeSolutions"
-                :tags="['Java', 'OOPs']" description="Java implementations of various design patterns. Each pattern includes examples and use cases for
-                easy understanding." />
+                :tags="['java', 'algorithms', 'data-structures']" description="Collection of Java solutions for LeetCode problems, emphasizing clean, efficient, and well-documented code implementations." />
         </div>
     </div>
 </template>
