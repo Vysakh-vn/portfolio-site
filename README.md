@@ -9,7 +9,7 @@ A personal portfolio website built with **Vue.js**, showcasing my **skills, educ
 - 📝 **Upcoming: Articles** – I will be adding blog posts on various topics soon.  
 
 ## 🛠️ Tech Stack  
-- **Frontend**: Vue.js, Vue Router (if used)  
+- **Frontend**: Vue.js
 - **Styling**: CSS / Bootstrap
 - **Hosting**: GitHub Pages  
 
