@@ -4,7 +4,7 @@ A personal portfolio website built with **Vue.js**, showcasing my **skills, educ
 
 ## 🚀 Features  
 - 🏆 **Skills & Education** – Highlights my expertise and academic background.  
-- 🔥 **Projects** – Showcases various projects I've worked on.  
+- 🔥 **Projects** – Showcases various hobby projects I've worked on.  
 - 💡 **Problem-Solving** – Displays coding challenges and solutions.  
 - 📝 **Upcoming: Articles** – I will be adding blog posts on various topics soon.  
 
