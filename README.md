@@ -28,6 +28,7 @@ npm install
 
 # Run the development server
 npm run dev
+```
 
 ## 🔮 Future Enhancements  
 - 📝 Adding articles and blog section  
@@ -40,8 +41,8 @@ Any contributions that improve this project are welcome!
 
 ## 📧 Contact  
 Feel free to reach out:  
-- **Portfolio**: [Live Portfolio](your-portfolio-link)  
-- **LinkedIn**: [Your LinkedIn Profile](your-linkedin-profile)  
-- **Email**: your@email.com  
+- **Portfolio**: [Live Portfolio](https://vysakh-vn.github.io/portfolio-site/)  
+- **LinkedIn**: [Your LinkedIn Profile](https:linkedin.com/in/vysakh-vn)  
+- **Email**: vysakhvn28@gmail.com
 
 
