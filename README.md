@@ -33,16 +33,14 @@ npm run dev
 ## 🔮 Future Enhancements  
 - 📝 Adding articles and blog section  
 - 🌙 Dark mode support  
-- 📱 More responsiveness improvements  
 
 ## 🎯 Contributing  
-If you have suggestions, feel free to **open an issue** or submit a **pull request**.  
-Any contributions that improve this project are welcome!  
+If you have suggestions, feel free to **open an issue**.
 
 ## 📧 Contact  
 Feel free to reach out:  
 - **Portfolio**: [Live Portfolio](https://vysakh-vn.github.io/portfolio-site/)  
-- **LinkedIn**: [Your LinkedIn Profile](https:linkedin.com/in/vysakh-vn)  
+- **LinkedIn**: [LinkedIn Profile](https:linkedin.com/in/vysakh-vn)  
 - **Email**: vysakhvn28@gmail.com
 
 
